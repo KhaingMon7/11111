@@ -994,7 +994,7 @@ if __name__ == "__main__":
 PY
 
 # Download index.html template
-curl -fsSL -o /etc/zivpn/templates/index.html "https://raw.githubusercontent.com/KhaingMon7/11111/onlyme/main/templates/index.html"
+curl -fsSL -o /etc/zivpn/templates/index.html "https://raw.githubusercontent.com/KhaingMon7/11111/main/templates/index.html"
 if [ $? -ne 0 ]; then
     say "${R}❌ Template download မအောင်မြင် - Fallback ထည့်နေပါတယ်...${Z}"
     # Create basic template
